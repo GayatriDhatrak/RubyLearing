@@ -2,7 +2,8 @@ require 'rubygems'
 require  'pry'
 class Project
 	attr_accessor :name,:email,:phone
-	def val_name
+	# ADD NAME
+  def val_name
     if @name==""
 			print "Please Enter Data :"
 			@name=gets().chomp!
@@ -15,6 +16,7 @@ class Project
          val_name
     end
   end
+
   def val_email
     if @email==""
 			print "Please Enter Data :"
