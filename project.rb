@@ -16,7 +16,7 @@ class Project
          val_name
     end
   end
-
+  #ADD EMAIL
   def val_email
     if @email==""
 			print "Please Enter Data :"
